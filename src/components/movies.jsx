@@ -7,7 +7,7 @@ import { paginate } from '../utils/paginate';
 class Movies extends Component {
     state = { 
         movies: getMovies(),
-        pageSize: 3,
+        pageSize: 4,
         currentPage: 1
     }
 
